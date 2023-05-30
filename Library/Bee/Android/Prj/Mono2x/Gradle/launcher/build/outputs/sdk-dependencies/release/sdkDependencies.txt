@@ -3,6 +3,14 @@
 
 library {
   maven_library {
+    artifactId: "audioinaec"
+  }
+  digests {
+    sha256: "\273J\v\256\313\375\247\376\021e<\272\360R\032\276\325\025\216\n\371\302\352\r.\374\210\000\001[>\030"
+  }
+}
+library {
+  maven_library {
     artifactId: "OVRPlugin"
   }
   digests {
@@ -19,7 +27,10 @@ library_dependencies {
 library_dependencies {
   library_index: 1
 }
+library_dependencies {
+  library_index: 2
+}
 module_dependencies {
   module_name: "base"
-  dependency_index: 1
+  dependency_index: 2
 }
