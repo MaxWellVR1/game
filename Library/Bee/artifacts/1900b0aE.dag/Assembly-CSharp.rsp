@@ -465,7 +465,7 @@
 "Assets/Resources/PhotonVR/Scripts/Testing/PhotonVRColourChangerGUI.cs"
 "Assets/Resources/PhotonVR/Scripts/Testing/PhotonVRCosmeticsChanger.cs"
 "Assets/Resources/PhotonVR/Scripts/Testing/PhotonVRCosmeticsChangerGUI.cs"
-"Assets/Scripts/ChangeServer.cs"
+"Assets/Scripts/ChangeTheServer.cs"
 "Assets/Scripts/FastIKFabric.cs"
 "Assets/Scripts/NewGorillaLocomotionScripts/Player.cs"
 "Assets/Scripts/NewGorillaLocomotionScripts/Surface.cs"
