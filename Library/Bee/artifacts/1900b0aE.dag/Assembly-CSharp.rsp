@@ -385,6 +385,7 @@
 "Assets/Normal/Examples/Hoverbird Player/Scripts/HoverbirdPlayer.cs"
 "Assets/Normal/Examples/Hoverbird Player/Scripts/HoverbirdPlayerManager.cs"
 "Assets/Normal/Examples/VR Player/Scripts/VoiceMouthMove.cs"
+"Assets/Scripts/FastIKFabric.cs"
 "Assets/Scripts/NewGorillaLocomotionScripts/Player.cs"
 "Assets/Scripts/NewGorillaLocomotionScripts/Surface.cs"
 -langversion:9.0
