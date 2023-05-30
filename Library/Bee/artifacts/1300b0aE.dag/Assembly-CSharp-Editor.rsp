@@ -119,6 +119,8 @@
 -define:NORMCORE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
+-r:"Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -345,8 +347,25 @@
 -r:"C:/Users/angel/marshmellow/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"C:/Users/angel/marshmellow/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/MicAmplifierEditor.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Normal.Realtime.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Normal.Realtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonChat.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonRealtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Demos.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Utilities.Culling.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Utilities.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.API.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.PUN.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.PUN.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.Utilities.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PunDemos.DemoHubEditor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PunDemos.DemoSlotcarEditor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Mathematics.Editor.ref.dll"
@@ -398,6 +417,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Normal/Internal/Editor/PackageManager.cs"
 "Assets/Normal/Internal/Editor/SimpleJson.cs"
+"Assets/Photon/PhotonChat/Demos/DemoChat/Editor/ChatEditor.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs"
 -langversion:9.0
 
 /deterministic
