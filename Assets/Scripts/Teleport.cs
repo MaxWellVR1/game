@@ -8,8 +8,12 @@ public class Teleport : MonoBehaviour
 
     [SerializeField] GameObject RespawnPoint;
 
+    [SerializeField] BoxCollider WallCollider;
+
     private void OnTriggerEnter(Collider other)
     {
+        WallCollider.enabled = false;
+        
         if (other.gameObject.CompareTag("Body"))
         {
             GorillaPlayer.transform.position = RespawnPoint.transform.position;
@@ -18,6 +22,8 @@ public class Teleport : MonoBehaviour
         {
             GorillaPlayer.transform.position = RespawnPoint.transform.position;
         }
+
+        WallCollider.enabled = true;
     }
 }
 
