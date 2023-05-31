@@ -9,9 +9,6 @@ ScriptsOnlyBuild:
     - ExitGames.Demos.DemoPunVoice.ThirdPersonController
     - GorillaLocomotion.Player
     - HitSounds
-    - Normal.Realtime.Examples.CubePlayer
-    - Normal.Realtime.Examples.HoverbirdPlayer
-    - Normal.Realtime.Examples.VoiceMouthMove
     - Photon.VR.PhotonVRManager
     - Photon.VR.Player.PhotonVRPlayer
     - Photon.VR.Player.PhotonVRPlayerName
@@ -21,19 +18,12 @@ ScriptsOnlyBuild:
     - PhotonVRPlayerBody
     - PointersController
     - ProximityVoiceTrigger
-    Normal.Realtime.dll:
-    - Normal.Realtime.RealtimeAvatar
-    - Normal.Realtime.RealtimeAvatarManager
-    - Normal.Realtime.RealtimeAvatarVoice
     Normcore.Editor.dll:
     - Normal.Internal.DirectoryFinder
     - Normal.Utility.InternalSettings
     Normcore.dll:
     - Normal.NormcoreAppSettings
     - Normal.NormcoreProjectSettings
-    - Normal.Realtime.Realtime
-    - Normal.Realtime.RealtimeTransform
-    - Normal.Realtime.RealtimeView
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
     - Photon.Pun.Demo.Asteroids.Bullet
@@ -128,10 +118,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp:
     - MouseLookHelper
     - Photon.VR.Cosmetics.PhotonVRCosmeticsData
-    Normal.Realtime:
-    - Normal.Realtime.RealtimeAvatar/LocalPlayer
-    Normcore:
-    - Normal.Realtime.SerializableComponentIDPair
     Normcore.Editor:
     - Normal.Utility.MigrationSettings
     PhotonRealtime:
@@ -226,144 +212,120 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
-    - Class: 111
-      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16188}
+      Script: {instanceID: 16162}
     - Class: 114
-      Script: {instanceID: 16192}
+      Script: {instanceID: 17888}
     - Class: 114
-      Script: {instanceID: 17196}
+      Script: {instanceID: 17924}
     - Class: 114
-      Script: {instanceID: 17232}
+      Script: {instanceID: 17950}
     - Class: 114
-      Script: {instanceID: 17258}
+      Script: {instanceID: 18026}
     - Class: 114
-      Script: {instanceID: 17334}
+      Script: {instanceID: 18186}
     - Class: 114
-      Script: {instanceID: 17494}
+      Script: {instanceID: 18188}
     - Class: 114
-      Script: {instanceID: 17496}
+      Script: {instanceID: 18216}
     - Class: 114
-      Script: {instanceID: 17524}
+      Script: {instanceID: 18768}
     - Class: 114
-      Script: {instanceID: 18076}
+      Script: {instanceID: 19208}
     - Class: 114
-      Script: {instanceID: 18520}
+      Script: {instanceID: 19468}
     - Class: 114
-      Script: {instanceID: 18780}
+      Script: {instanceID: 19698}
     - Class: 114
-      Script: {instanceID: 19010}
+      Script: {instanceID: 19760}
     - Class: 114
-      Script: {instanceID: 19072}
+      Script: {instanceID: 19994}
     - Class: 114
-      Script: {instanceID: 19146}
+      Script: {instanceID: 20158}
     - Class: 114
-      Script: {instanceID: 19306}
+      Script: {instanceID: 20690}
     - Class: 114
-      Script: {instanceID: 19348}
+      Script: {instanceID: 20740}
     - Class: 114
-      Script: {instanceID: 19470}
+      Script: {instanceID: 20772}
     - Class: 114
-      Script: {instanceID: 20004}
+      Script: {instanceID: 21016}
     - Class: 114
-      Script: {instanceID: 20054}
+      Script: {instanceID: 21102}
     - Class: 114
-      Script: {instanceID: 20086}
+      Script: {instanceID: 21176}
     - Class: 114
-      Script: {instanceID: 20110}
+      Script: {instanceID: 21180}
     - Class: 114
-      Script: {instanceID: 20330}
+      Script: {instanceID: 21416}
     - Class: 114
-      Script: {instanceID: 20416}
+      Script: {instanceID: 21590}
     - Class: 114
-      Script: {instanceID: 20490}
+      Script: {instanceID: 21934}
     - Class: 114
-      Script: {instanceID: 20494}
+      Script: {instanceID: 21954}
     - Class: 114
-      Script: {instanceID: 20730}
+      Script: {instanceID: 22138}
     - Class: 114
-      Script: {instanceID: 20906}
+      Script: {instanceID: 22556}
     - Class: 114
-      Script: {instanceID: 21252}
+      Script: {instanceID: 22732}
     - Class: 114
-      Script: {instanceID: 21272}
+      Script: {instanceID: 22768}
     - Class: 114
-      Script: {instanceID: 21456}
+      Script: {instanceID: 22912}
     - Class: 114
-      Script: {instanceID: 21796}
+      Script: {instanceID: 22930}
     - Class: 114
-      Script: {instanceID: 21876}
+      Script: {instanceID: 22954}
     - Class: 114
-      Script: {instanceID: 22052}
+      Script: {instanceID: 22990}
     - Class: 114
-      Script: {instanceID: 22088}
+      Script: {instanceID: 23010}
     - Class: 114
-      Script: {instanceID: 22232}
+      Script: {instanceID: 23034}
     - Class: 114
-      Script: {instanceID: 22250}
+      Script: {instanceID: 23246}
     - Class: 114
-      Script: {instanceID: 22274}
+      Script: {instanceID: 23294}
     - Class: 114
-      Script: {instanceID: 22310}
-    - Class: 114
-      Script: {instanceID: 22330}
-    - Class: 114
-      Script: {instanceID: 22354}
-    - Class: 114
-      Script: {instanceID: 22566}
-    - Class: 114
-      Script: {instanceID: 22614}
-    - Class: 114
-      Script: {instanceID: 22800}
-    - Class: 114
-      Script: {instanceID: 22838}
-    - Class: 114
-      Script: {instanceID: 22868}
-    - Class: 114
-      Script: {instanceID: 22900}
-    - Class: 114
-      Script: {instanceID: 22902}
-    - Class: 114
-      Script: {instanceID: 23152}
-    - Class: 114
-      Script: {instanceID: 23340}
+      Script: {instanceID: 23378}
     - Class: 114
       Script: {instanceID: 23482}
     - Class: 114
-      Script: {instanceID: 23578}
+      Script: {instanceID: 23520}
     - Class: 114
-      Script: {instanceID: 23816}
+      Script: {instanceID: 23550}
     - Class: 114
-      Script: {instanceID: 23832}
+      Script: {instanceID: 23830}
     - Class: 114
-      Script: {instanceID: 24036}
+      Script: {instanceID: 24158}
     - Class: 114
-      Script: {instanceID: 24218}
+      Script: {instanceID: 24254}
     - Class: 114
-      Script: {instanceID: 24640}
+      Script: {instanceID: 24492}
     - Class: 114
-      Script: {instanceID: 24648}
+      Script: {instanceID: 24508}
     - Class: 114
-      Script: {instanceID: 24650}
+      Script: {instanceID: 24892}
     - Class: 114
-      Script: {instanceID: 24708}
+      Script: {instanceID: 25380}
     - Class: 114
-      Script: {instanceID: 24724}
+      Script: {instanceID: 25396}
     - Class: 114
-      Script: {instanceID: 24872}
+      Script: {instanceID: 25544}
     - Class: 114
-      Script: {instanceID: 25444}
+      Script: {instanceID: 26114}
     - Class: 114
-      Script: {instanceID: 25640}
+      Script: {instanceID: 26310}
     - Class: 114
-      Script: {instanceID: 25954}
+      Script: {instanceID: 26620}
     - Class: 114
-      Script: {instanceID: 25970}
+      Script: {instanceID: 26636}
     - Class: 114
-      Script: {instanceID: 26134}
+      Script: {instanceID: 26800}
     - Class: 114
-      Script: {instanceID: 26544}
+      Script: {instanceID: 27208}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -441,34 +403,10 @@ ScriptsOnlyBuild:
     className: GrabMoveProvider
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
-      Hash: 69415240821be7986b27e72bf9609a30
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
-  - hash:
-      serializedVersion: 2
       Hash: d251bf88db6c95a6b1aa0b69298da9ef
     assemblyName: UnityEngine.SpatialTracking.dll
     namespaceName: UnityEngine.SpatialTracking
     className: TrackedPoseDriver
-  - hash:
-      serializedVersion: 2
-      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: LayoutElement
-  - hash:
-      serializedVersion: 2
-      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
       Hash: 7271649844da568677253e9df423644e
@@ -565,6 +503,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.SlotRacer.Utils
     className: BezierSpline
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
   - hash:
       serializedVersion: 2
       Hash: cba6cca6bb3290c4c00d709cf63843db
@@ -835,12 +779,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: ScoreHelper
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Normal.Realtime.Utility
-    className: OculusSetFloorTrackingOriginWithoutPlugin
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -1197,12 +1135,6 @@ ScriptsOnlyBuild:
     className: CurrentRoomIsOfflineProperty
   - hash:
       serializedVersion: 2
-      Hash: b0c0465c29ae528e7a5bff54f00eecd4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Normal.Realtime.Examples
-    className: HoverbirdPlayer
-  - hash:
-      serializedVersion: 2
       Hash: 5d5b0c61f3ab6ff5f41b1bbe19764526
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.OnScreen
@@ -1225,6 +1157,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonVoice.dll
     namespaceName: Photon.Voice.Unity
     className: UnityVoiceClient
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 0c74490dbe976cc4bf11ec3aaac970ed
@@ -1911,12 +1849,6 @@ ScriptsOnlyBuild:
     className: MacroScriptableObject
   - hash:
       serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Normal.Realtime.Examples
-    className: CubePlayer
-  - hash:
-      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -2091,6 +2023,12 @@ ScriptsOnlyBuild:
     className: TextButtonTransition
   - hash:
       serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
       Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -2221,6 +2159,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -2413,12 +2357,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
-  - hash:
-      serializedVersion: 2
-      Hash: 49fec550b93a998b202c05578e9afa2e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Normal.Realtime.Examples
-    className: VoiceMouthMove
   - hash:
       serializedVersion: 2
       Hash: 7bbafd29a3aa5d28539789f401bdba25
@@ -3201,12 +3139,6 @@ ScriptsOnlyBuild:
     className: ConnectionHandler
   - hash:
       serializedVersion: 2
-      Hash: aad690be56e4265f5de9f49a27456cf4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Normal.Realtime.Examples
-    className: CubePlayerManager
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonVoice.dll
     namespaceName: Photon.Voice.Unity.UtilityScripts
@@ -3369,6 +3301,12 @@ ScriptsOnlyBuild:
     className: DisposableManagerSingleton
   - hash:
       serializedVersion: 2
+      Hash: d4437f5c23bc5afead4f6880cf43ba15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeTheServer
+  - hash:
+      serializedVersion: 2
       Hash: ea41fa959037983f32ebd7c70de46554
     assemblyName: Unity.XR.OpenXR.dll
     namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
@@ -3441,12 +3379,6 @@ ScriptsOnlyBuild:
     className: Vector4MaterialPropertyAffordanceReceiver
   - hash:
       serializedVersion: 2
-      Hash: aab36e99b249ad0b74ca477a9b685665
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Normal.Realtime.Examples
-    className: HoverbirdPlayerManager
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
@@ -3508,4 +3440,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/dragon/Documents/GitHub/marshmellow/Builds/v0.0.2-alpha.apk
+  playerPath: C:/Users/dragon/Documents/GitHub/build/v0.0.4.apk

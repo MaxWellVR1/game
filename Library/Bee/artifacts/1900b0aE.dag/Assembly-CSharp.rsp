@@ -466,6 +466,7 @@
 "Assets/Scripts/FastIKFabric.cs"
 "Assets/Scripts/NewGorillaLocomotionScripts/Player.cs"
 "Assets/Scripts/NewGorillaLocomotionScripts/Surface.cs"
+"Assets/Scripts/Tag.cs"
 -langversion:9.0
 
 /deterministic
