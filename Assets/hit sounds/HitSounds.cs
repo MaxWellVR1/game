@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HitSounds : MonoBehaviour
 {
-    public AudioSource Hitsound;
+    [SerializeField] private AudioSource Hitsound;
 
     void OnTriggerEnter()
     {
