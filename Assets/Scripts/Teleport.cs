@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Teleport : MonoBehaviour
 {
-    public GameObject GorillaPlayer;
+    [SerializeField] GameObject GorillaPlayer;
 
-    public GameObject RespawnPoint;
+    [SerializeField] GameObject RespawnPoint;
 
     private void OnTriggerEnter(Collider other)
     {
